@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+html {font-size: 100%;} /*16px*/
+.go-up img{
+    width: 70px;
+}
+.go-up{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+/* Header */
+header{
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    padding: 30px 100px;
+    color: gray;
+    margin-bottom: 60px;
+    min-width: 800px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.logo h2{
+    margin: 0;
+    font-size: 35px;
+    font-weight: bold;
+}
+.logo a{
+    color: inherit;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+}
+nav a{
+    text-decoration: none;
+    color: inherit;
+}
+nav a:hover{
+    text-decoration: underline;
+    font-weight: 600;
+}
+#btn1, #btn2{
+    height:30px;
+    cursor: pointer;
+}
+
+/* Main section */
+main{
+    min-width: 800px;
+}
+section{
+    margin: 50px 165px;
+    align-items: center;
+}
+section h2{
+    font-size: 55px;
+}
+/*Colors*/
+.colorbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-color{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.btn-color:hover{
+    background-color: gainsboro !important;
+}
+.active{
+    background-color: gainsboro;
+}
+.rgb, .hsl{
+    display: none;
+}
+.grid-container{
+    justify-content: center;
+    margin-top: 30px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill, 170px);
+}
+.color1, .color2, .color3, .color4, .color5, .color6{
+    width: 170px;
+    height: 170px;
+}
+.color1{
+    background-color: rgb(245,245,245);
+}
+.color2{
+    background-color: whitesmoke;
+}
+.color3{
+    background-color: lightseagreen;
+}
+.color4{
+    background-color: steelblue;
+}
+.color5{
+    background-color: tomato;
+}
+.color6{
+    background-color: rgb(224, 224, 84);
+}
+
+/*Gradients*/
+.grid-container2{
+    justify-content: center;
+    margin-top: 30px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill, 370px);
+}
+.gradient1, .gradient2, .gradient3, .gradient4, .gradient5, .gradient6{
+    width: 370px;
+    height: 180px;
+}
+
+.flex-container{
+    width: 370px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gradient1{
+    background: linear-gradient(90deg, #E0E054 0%, #FF6347 100%);
+}
+.gradient2{
+    background: linear-gradient(90deg,  #4682B4 0%,  #20B2AA 100%)
+}
+.gradient3{
+    background: linear-gradient(90deg,  #20B2AA 0%,  #E0E054 100%)
+}
+.gradient4{
+    background: linear-gradient(90deg,  #4682B4 0%,  #F5F5F5 100%)
+}
+.gradient5{
+    background: linear-gradient(90deg,  #20B2AA 0%,  #DCDCDC 100%)
+}
+.gradient6{
+    background: linear-gradient(90deg,  #FF6347 0%,  #F5F5F5 100%)
+}
+
+/*Headings*/
+.flex-container2{
+    flex-wrap: wrap;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topborder{
+    border-top: 2px solid whitesmoke;
+}
+@media (max-width: 975px) {
+    .col{
+        flex-direction: column;
+    }
+    .m-center{
+        text-align: center;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 4.209rem;
+  }
+  
+  h2 {font-size: 3.157rem;}
+  
+  h3 {font-size: 2.369rem;}
+  
+  h4 {font-size: 1.777rem;}
+  
+  h5 {font-size: 1.333rem;}
+  
+  h6{font-size: 0.75rem;}
+
+/* Font Families*/
+.fam-color{
+    color: lightseagreen;
+}
+.grid-items p{
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    padding: 5px;
+    line-height: 1em;
+}
+.heading p{
+    font-weight: 700;
+}
+.subheading p{
+    font-weight: 600;
+}
+.bodytext p{
+    font-weight: 400;
+}
+.quotes p{
+    font-weight: 400;
+    font-style: italic;
+}
+.first-letter{
+    font-size: 80px !important;
+}
+  .grid-container4{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill, 570px);
+    justify-content: center;
+    margin-top: 30px;
+}
+.grid-items{
+    width: 570px;
+    height: 250px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
