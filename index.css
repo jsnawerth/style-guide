@@ -251,3 +251,14 @@ h1 {
     background-color: whitesmoke;
     padding: 20px;
 }
+/*Footer*/
+footer{
+    margin-top: 20px;
+    background-color: whitesmoke;
+    padding: 30px 100px;
+    color: gray;
+    margin-bottom: 60px;
+    min-width: 800px;
+    font-size: 17px;
+    font-weight: 600;
+}
