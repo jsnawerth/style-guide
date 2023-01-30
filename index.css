@@ -253,12 +253,12 @@ h1 {
 }
 /*Footer*/
 footer{
-    margin-top: 20px;
     background-color: whitesmoke;
     padding: 30px 100px;
     color: gray;
-    margin-bottom: 60px;
+    margin-top: 60px;
     min-width: 800px;
     font-size: 17px;
     font-weight: 600;
+    text-align: center;
 }
